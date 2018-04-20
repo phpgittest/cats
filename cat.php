@@ -14,7 +14,7 @@ function console($label, $data) {
 }
 
 //Array creation
-for ($i = 0; $i < 5; $i++){
+for ($i = 0; $i < 7; $i++){
     $cats[] = new Cat("Tom", $i+1, array("black"));
 }
 echo '<pre>';
