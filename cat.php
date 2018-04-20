@@ -14,9 +14,10 @@ function console($label, $data) {
 }
 
 //Array creation
+
 for ($i = 0; $i < 10; $i++){
-    $cats[] = new Cat("Tom", $i+1, array("black"));
-}
+    $cats[] = new Cat("Tom", $i+2, array("black"));
+
 echo '<pre>';
 print_r($cats);
 
